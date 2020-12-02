@@ -7,5 +7,6 @@ scalaVersion := "2.13.4"
 val zioVersion = "1.0.3"
 
 libraryDependencies ++= Seq("dev.zio" %% "zio" % "1.0.3",
+  "dev.zio" %% "zio-streams" % "1.0.3",
   "dev.zio" %% "zio-test" % "1.0.3",
 )
